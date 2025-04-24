@@ -1,0 +1,24 @@
+# Core application framework
+streamlit
+
+# OpenAI API for translation
+openai
+
+# Video and audio processing
+moviepy==1.0.3
+
+# Transcription model and dependencies
+openai-whisper
+torch
+torchvision
+torchaudio
+
+# Numerical processing (often a dependency, good to include)
+numpy
+
+# Note: This file lists Python packages installable via pip.
+# You ALSO need to manually install the following external software
+# and ensure they are in your system's PATH or configured correctly:
+# 1. FFMPEG (required by moviepy for video/audio operations)
+# 2. ImageMagick (required by moviepy for text rendering/subtitles,
+#    ensure moviepy can find it via PATH or IMAGEMAGICK_BINARY env var)
