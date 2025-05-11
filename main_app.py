@@ -693,7 +693,7 @@ def process_video_threaded(params, progress_queue, result_queue):
             'final_video_path': final_video_path if final_video_path and os.path.exists(final_video_path) else None,
             'output_options': output_options,
             'token_usage': token_usage,
-            'timings': timing
+            'timings': timings
         }
         result_queue.put(results)
 
