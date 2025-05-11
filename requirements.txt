@@ -9,6 +9,7 @@ moviepy==1.0.3
 
 # Transcription model and dependencies
 openai-whisper
+# IMPORTANT: To use CUDA (using GPU instead of CPU for transcription) use a compatible CUDA torch build for example: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 torch
 torchvision
 torchaudio
